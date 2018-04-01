@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Search" />
+        <item
+            android:id="@+id/location"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="My Location" />
+        <item
+            android:id="@+id/petrol_pump"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Near By Petrol_pump" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Help" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About Us" />
+            <item
+                android:id="@+id/signout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

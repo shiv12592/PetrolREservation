@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context="com.example.kamran.loginsignupmix.sideBar"
+    tools:showIn="@layout/app_bar_side_bar">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to the map and Select Petrol_Pump on Map"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button_press_to_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press Here to Continue!!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Select manually"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button_manually_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press Here to Continue!!" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Petrol Reservation</string>
+    <string name="title_activity_side_bar">Petrol Reservation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">Map</string>
+
+    <string name="radio_petrol">Petrol</string>
+    <string name="radio_disel">Disel</string>
+    <string name="radio_cng">CNG</string>
+
+    <string name="btn_display">Display Fuel Type Selected</string>
+
+
+
+</resources>
